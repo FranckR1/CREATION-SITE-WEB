@@ -1,0 +1,111 @@
+.header{
+    margin-left: 20%; 
+}
+.P1{
+    text-align: center;
+    padding: 50px;
+    margin-left: 150px;
+}
+#P1a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#body1{
+    background-color: black;
+}
+/*memoire CSS de la Page default_index en haut*/
+
+#body2{
+    background-image: url(ress/BEAST.jpg);
+}
+#IMG{
+    float: left;
+    max-height: 433px;
+    width: auto;   
+}
+#td1{
+    background-color: black;
+    color:blanchedalmond;
+    border-style: inset;
+    vertical-align: auto;
+    text-align: center;
+    margin-left: 5px;
+    height: 390px;
+    font-size: 18px;
+    
+}
+.OVER{
+    overflow: hidden;
+    
+}
+/*memoire CSS de la page 1 en haut*/
+#body3{
+    background-image: url(ress/WOW.jpg);
+    background-size: cover;
+
+}
+#video{
+    margin-left: 34%;
+}
+/*memoire CSS de la page 2 en haut*/
+#body4{
+    background-color:black;
+}
+#IMG5 img{ 
+    width: 49%;
+    display: block;
+    max-height: auto;
+    margin-left: 27%;
+}
+#LOGO img{
+width: 5%;
+height: 5%;
+margin-top: 200px;
+}
+#TAB{
+    margin-top: 10%;
+}
+#TAB1{
+    border-collapse: collapse;
+    color: white;
+    background-color: teal;
+    margin-left: 22%;
+    font-size: 20px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+#TAB2{
+    border-collapse: collapse;
+    color: white;
+    background-color: teal;
+    margin-right: 22%;
+    font-size: 20px;
+    float: right;
+}
+td{
+    border: 2px solid blue;
+    padding: 8px;
+}
+/*memoire de la page 3 en haut */
+

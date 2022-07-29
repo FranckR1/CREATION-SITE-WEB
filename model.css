@@ -1,0 +1,129 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+
+}
+h2{ margin-left: 7px;
+	text-align: center;
+}
+.MENU{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 1px solid #fff;
+	}
+nav .logo{
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0.7);
+	border-radius: 10px;
+}
+section{
+	width: 100%;
+	height: 100vh;
+	background: url(ress/gestion.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.navgauche{
+	position: fixed;
+	height: 100vh;
+	left: 0;
+	top: 0;
+}
+.gauche{
+	background: rgba(0,0,0,0.6);
+	height: 100vh;
+	width: 75px;
+	border-right: 1px solid #fff;
+	position: fixed;
+	
+}
+.Trois-Boutton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90px;
+
+}
+.dot{
+	margin: 10px 3px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #000;
+}
+.d1{background: blue;}
+.d2{background: white;}
+.d3{background: red;}
+
+.nav-bloc{
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	border-bottom: 1px solid #f2f2f21e;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	height: 70px;
+
+}
+.nav-bloc:hover{
+	background: #181818;
+
+}
+.sub-nav{
+	width: 200px;
+	height: 100vh;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	background: #333;
+	color: #fff;
+	transform: translateX(-100%);
+	transition: transform 0.2s ease-in-out;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+}
+.side-nav {
+	position: fixed;
+	height: 100vh;
+	left: 0;
+	top: 0;
+  }
+.nav-bloc:hover .sub-nav {
+	transform: translateX(75px);
+  }
+

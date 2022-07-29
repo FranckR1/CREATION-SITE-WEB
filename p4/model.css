@@ -1,0 +1,67 @@
+#House{
+	color: #efd807;
+	text-align: center;
+	text-shadow: 5px 5px 30px #3a9d23;
+	font-family: tahoma;	
+}
+#back{
+	color: #73c2fb;
+	text-align: center;
+	text-shadow: 5px 5px 30px;
+	font-family: helvetica;
+	
+}
+#move{
+	color: #80d0d0;
+	text-align: justify;
+	font-family: helvetica;
+	padding: 0px 25px 50px 40px;
+	text-transform: capitalize;
+	
+}
+#play{
+	text-align: center;
+	border-style: dashed;
+	border-width: 5px;
+	background-color: #bd33a4;
+	padding: 20px 30px 30px 20px;
+	text-transform: capitalize;
+}
+#light{
+	text-align: center;
+	text-align: garamond;
+	padding: 25px 25px 25px 25px;
+	font-size: 22px;
+	background-image: url("ress/house.jpg");
+	color: #ffd700;
+	text-transform: capitalize;
+}
+#YO{
+	background-image: url("ress/OLA.webp"), url("ress/OUH.webp");
+	color: #85c17e;
+	background-position: left , right;
+	background-repeat: repeat-y , repeat-y , repeat-y;
+	background-size: contain;
+}
+body{
+	background-image: url("ress/WOW.webp");
+	background-size: cover;
+	}
+	
+a:link{
+	color: orange;
+	font-family: tahoma;
+	font-size: 20px;
+	text-decoration: none;
+	border: solid black 5px;
+	padding: 5px;
+	margin: 5px;
+	background-color: dark grey;
+}
+a:hover{
+	color: blue;
+	font-family: arial;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: pink;
+}
